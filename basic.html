@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic_Content</title>
+</head>
+<style>
+	table,th,td{
+		padding: 5px;
+		border:1px solid black;
+		border-collapse:collapse;
+	}
+	table#alter tr:nth-child(even){
+		background-color: red;
+	}
+	table#alter tr:nth-child(odd){
+		background-color: green;
+	}
+	table#alter th{
+		color: black;
+		background-color: gray;
+	}
+
+</style>
+<body>
+<p>hello <tt>write your first paragraph in monospaced font.</tt></p>
+<p>hi<sup>siva</sup></sub></p>
+<table width="100%" id="alter" >
+	<tr align="left"><th>First Name</th><th>Last Name</th><th>Marks</th></tr>
+	<tr align="left"><td>siva</td><td>P</td><td>76</td></tr>
+	<tr align="left"><td>sakthi</td><td>D</td><td>89</td></tr>
+	<tr align="left"><td>sri</td><td>H</td><td>98</td></tr>
+</table>
+
+<form id="my">
+
+	Enter Your Name:<input type="text">
+	
+</form>
+</body>
+</html>
